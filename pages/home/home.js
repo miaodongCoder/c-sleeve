@@ -1,6 +1,5 @@
 // pages/home/home.js
 
-
 import {Theme} from "../../Model/theme";
 import {Banner} from "../../Model/banner";
 import {Category} from "../../Model/catrgory";
