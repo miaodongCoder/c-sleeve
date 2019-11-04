@@ -1,0 +1,25 @@
+<view>
+    <!-- 1.顶部image图片组件:-->
+    <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+    <!-- 2.轮播图组件:-->
+    <swiper class="swiper"
+            indicator-dots
+            indicator-active-color="#157658"
+            autoplay
+            interval="1000"
+            circular="true">
+        <block wx:for="{{bannerB.items}}" wx:key="">
+            <swiper-item>
+                <image class="swiper"
+                        src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <!-- 3.引用外部的grid组件 -->
+    <view class="grid">
+        <s-category-grid class="grid" grid="{{grid}}"></s-category-grid>
+    </view>
+    <view>
+        <image class="activity" src="{{activity.entrance_img}}"></image>
+    </view>
+</view>

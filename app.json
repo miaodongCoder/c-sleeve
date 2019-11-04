@@ -1,0 +1,18 @@
+{
+    "pages": [
+        "pages/home/home"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "风 袖",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "l-grid": "/miniprogram_npm/lin-ui/grid/index",
+        "l-grid-item": "/miniprogram_npm/lin-ui/grid-item/index"
+    }
+
+
+}
